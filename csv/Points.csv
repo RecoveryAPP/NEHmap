@@ -1,0 +1,19 @@
+Group,Marker Icon,Marker Color,Icon Color,Custom Size,Name,Image,Description,Location,Latitude,Longitude
+Museum,,darkblue,,,"<center><font size=""5"">Pleasanton's Museum on Main</center></font>",,"<b>Website:</b> <a href=""http://www.museumonmain.org/"" target=""_blank"">http://www.museumonmain.org/</a>
+<p><b> Type of Organization: </b> Museum </p>
+<p><b>Address:</b>603 Main St.,
+ Pleasanton, CA 94566</p>
+<p><b>Phone:</b> (925)462-2766 </p>
+<p><b> Contact Email: </b> curator@museumonmain.org </p>
+<p><b> Contact Person: </b>  Ken MacLennan- Curator</p>
+<p><b> Latino Materials: </b> Photographs, Artifacts, Books, Pamphlets, Manuscripts </p>
+<p> <b> Details: </b> Apporximately 4-500 documents and 1-200 photographs relevant to the ranchero families of the area and their legacies. The reference library has fewer than a dozen books and pamphlets related to the Spanish colonization of California and the 19th-century establishment of Hispanic families in the area. </p> 
+
+
+","603 Main St.,
+ Pleasanton, CA 94566",37.6617749,-121.8756066
+Visit,media/delaware-64.jpg,,,40x40,"Jack Markell Trail, Delaware",media/delaware.jpg,Walk or bike on <a href='https://www.delawaregreenways.org/portfolio_page/jackamarkell-trail/' target='_blank'>Jack Markell trail</a> on the East Coast Greenway.,"Jack Markell Trail, Wilmington, DE",39.723975,-75.562312
+Visit,media/ecg-logo-64.png,,,40x40,"East Coast Greenway, Durham NC",media/ecg-logo.png,Visit <a href='https://greenway.org' target='_blank'>Greenway.org</a> and view <a href='https://www.greenway.org/route-map' target='_blank'>the official map</a>.,"5826 Fayetteville Rd, Durham, NC 27713, USA",35.9207099,-78.9296101
+Food,fa-ice-cream,green,white,,"Capital Ice Cream, Hartford CT",media/icecream.jpg,Visit <a href='https://capitalicecream.com' target='_blank'>Capital Ice Cream in Hartford CT</a> and see more <a href='https://www.greenway.org/stories/churning-up-an-appetite-favorite-ice-cream-shops-along-the-east-coast-greenway' target='_blank'>favorite ice cream stops on the East Coast Greenway</a>.,"389 Capital Ave, Hartford CT",41.76385504,-72.68853213
+Food,fa-coffee,green,white,,"Sentient Bean coffee, Savanah GA",media/coffee.png,Visit <a href='https://www.sentientbean.com' target='_blank'>Sentient Bean</a> and see more <a href='https://www.greenway.org/stories/caffeinate-your-ride-coffee-shops-along-the-greenway' target='_blank'>favorite coffee shops on the Greenway</a>.,"13 E Park Ave, Savannah GA",32.06477342,-81.09702363
+Visit,media/keywest-64.jpg,,,40x40,"Key West, Florida",media/keywest.jpg,The southern end of the East Coast Greenway.,"Key West, FL",24.5550593,-81.7799871
