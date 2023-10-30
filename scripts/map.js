@@ -927,9 +927,9 @@ $(window).on('load', function() {
    */
   function addBaseMap() {
    var basemap = trySetting('_tileProvider', 'Stadia.StamenWatercolor');
-    L.tileLayer.provider(Stadia.StamenWatercolor, {
+    L.tileLayer.provider(Stadia.StamenWatercolor), {
       maxZoom: 18
-    }).addTo(map);
+    }.addTo(map);
     L.control.attribution({
       position: trySetting('_mapAttribution', 'bottomright')
     }).addTo(map);
