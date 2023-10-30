@@ -926,8 +926,8 @@ $(window).on('load', function() {
    * Loads the basemap and adds it to the map
    */
   function addBaseMap() {
-   var basemap = trySetting('_tileProvider', 'CartoDB.Positron');
-    L.tileLayer.provider(basemap, {
+   var basemap = trySetting('_tileProvider', 'Stadia.StamenWatercolor');
+    L.tileLayer.provider(Stadia.StamenWatercolor, {
       maxZoom: 18
     }).addTo(map);
     L.control.attribution({
