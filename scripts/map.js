@@ -926,14 +926,11 @@ $(window).on('load', function() {
    * Loads the basemap and adds it to the map
    */
   function addBaseMap() {
-    var basemap = trySetting('_tileProvider', 'CartoDB.Positron');
-    L.tileLayer.provider(basemap, {
-      maxZoom: 18
-    }).addTo(map);
-    L.control.attribution({
-      position: trySetting('_mapAttribution', 'bottomright')
-    }).addTo(map);
-  }
+    var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 20
+});
 
   /**
    * Returns the value of a setting s
