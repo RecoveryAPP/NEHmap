@@ -926,15 +926,25 @@ $(window).on('load', function() {
    * Loads the basemap and adds it to the map
    */
   function addBaseMap() {
+
     var basemap = trySetting('_tileProvider', 'CartoDB.Positron');
+    
     L.tileLayer.provider(basemap, {
-      maxZoom: 18
+      maxZoom: 18,
+
+      // Pass the api key to most commonly used parameters
+      apiKey: trySetting('_tileProviderApiKey', ''),
+      apikey: trySetting('_tileProviderApiKey', ''),
+      key: trySetting('_tileProviderApiKey', ''),
+      accessToken: trySetting('_tileProviderApiKey', '')
     }).addTo(map);
+
     L.control.attribution({
       position: trySetting('_mapAttribution', 'bottomright')
     }).addTo(map);
+
   }
-  
+
   /**
    * Returns the value of a setting s
    * getSetting(s) is equivalent to documentSettings[constants.s]
