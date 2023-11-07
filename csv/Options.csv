@@ -9,7 +9,7 @@ Author Code Repo,https://github.com/HandsOnDataViz/leaflet-maps-with-google-shee
 Author Code Credit,"<a href=""https://handsondataviz.org"">HandsOnDataViz</a>","Appears in credits as ""...code by..."" (or leave blank)"
 Google Analytics Tracking ID,,General format: UA-5488840-29
 Map Settings,,"For help, see tutorial in HandsOnDataViz.org"
-Basemap Tiles,Stadia.StamenTerrain,Select basemap background from drop-down menu
+Basemap Tiles,Esri.WorldStreetMap,Select basemap background from drop-down menu
 Cluster Markers,off,"Display tightly-packed groups of markers as numbers, until zoomed in to view details."
 Intro Popup Text,"Recovering the US Hispanic Literary Heritage conducted a survey of small historical societies, libraries and museums in the Southwest and Southeast that might hold Hispanic archival materials and to assess how they were preserved and made accessible. The survey results were herein published to serve as a guide to Hispanic materials at small institutions. To learn more, please visit: <a href=""https://artepublicopress.com/museum-survey/"">artepublicopress.com/museum-survey</a>. This project was supported by a grant from the National Endowment for the Humanities (NEH).",Show intro text pop-up on startup (or leave blank)
 Initial Zoom,,Leave blank to auto-zoom to display all markers (or insert number between 1 [zoomed out] and 18 [zoomed in])
